@@ -30,5 +30,4 @@ def Route2():
 	### Επιστροφή στην βάση ###
     MoveStraight_Distance (250,200,-100,True,True,Stop.BRAKE)
     PointTurn_Angle (300, 300, 100, True, Stop.BRAKE)
-    MoveStraight_Distance (800,600,770,True,True,Stop.BRAKE)
-
+	MoveStraight_Distance (800,600,770,True,True,Stop.BRAKE)
