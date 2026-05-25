@@ -13,12 +13,9 @@ def Route3():
 	
     PortView_Battery()
     
-    ### Πορέια προς χάρτη & βούρτσα ###
     MoveSteering_Seconds(-50, 0, 300)
 	rightArm.run_time(-400,400 , then=Stop.BRAKE, wait=False)
 	MoveStraight_Distance (600,400,725,True,True,Stop.BRAKE)
-    
-    ### Χάρτης ###
     PointTurn_Angle (300, 300, -45, True, Stop.BRAKE)
     MoveStraight_Distance (450,300,150,True,True,Stop.BRAKE)
     rightArm.run_time(400, 700, then=Stop.BRAKE, wait=True)
